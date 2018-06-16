@@ -1,0 +1,26 @@
+.main{
+    background-color: blue;
+    display: flex;
+}
+
+.menu{
+    background-color:yellow;
+    display: flex;
+    flex-basis: 30%;
+    flex-direction: column;
+}
+.projects{ 
+    color: orange;
+    background-color: black;
+    width: 90px;
+}
+
+
+.introduction{
+    color: red;
+    background-color: purple;
+    flex-grow: 3;
+    flex-basis: 70%;
+    height: 100vh;    
+}
+
