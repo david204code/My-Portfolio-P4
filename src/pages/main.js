@@ -1,6 +1,6 @@
 import React from 'react';
 import './main.css'
-import Projects from '../components/allProject';
+import ProjectMain from '../components/projectMain';
 
 
 class Main extends React.Component {
@@ -9,7 +9,7 @@ class Main extends React.Component {
             <div className="main">
                 <div className="menu">    
                     <div className="options">
-                        <Projects />
+                        <ProjectMain />
                         
                     </div>
                 </div>
