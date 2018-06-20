@@ -1,5 +1,6 @@
 import React from 'react';
 import './main.css'
+import Projects from '../components/allProject';
 
 
 class Main extends React.Component {
@@ -7,12 +8,13 @@ class Main extends React.Component {
         return (
             <div className="main">
                 <div className="menu">    
-                    <div className="projects">
-                        Hello
+                    <div className="options">
+                        <Projects />
+                        
                     </div>
                 </div>
-                <div className="introduction">
-                    Wu
+                <div className="brief-infor">
+                    
                 </div>
             </div>
         );

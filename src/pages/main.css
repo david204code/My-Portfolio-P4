@@ -9,14 +9,14 @@
     flex-basis: 30%;
     flex-direction: column;
 }
-.projects{ 
+.options{ 
     color: orange;
     background-color: black;
     width: 90px;
 }
 
 
-.introduction{
+.brief-infor{
     color: red;
     background-color: purple;
     flex-grow: 3;
