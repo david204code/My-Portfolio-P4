@@ -1,12 +1,24 @@
-import React, { Component } from 'react';
-import Main from './pages/main';
-
+import React, { Component } from "react";
+import { BrowserRouter as Router, Route, Redirect } from "react-router-dom";
+import Header from "./components/Header/header";
+import Main from "./pages/main";
+import About from "./pages/about";
+import Contact from "./pages/contact";
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <Main /> 
+        <Router>
+          <div>
+            <Header />
+            <Route exact path="/" render={() => <Redirect to="/home" />} />
+            <Route path="/home" component={Main} />
+            <Route path="/project/:id" component={Main} />
+            <Route path="/about" component={About} />
+            <Route path="/contact" component={Contact} />
+          </div>
+        </Router>
       </div>
     );
   }
