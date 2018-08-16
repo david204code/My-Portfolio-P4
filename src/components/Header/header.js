@@ -20,9 +20,15 @@ const Header = () => (
       id="navbarsExample10"
     >
       <ul className="navbar-nav">
+        <li >
+          <NavLink className="nav-link" to="/welcome">
+            Welcome
+          </NavLink>
+        </li>
         <li className="nav-item">
-          <NavLink className="nav-link" exact to="/">
-            Home
+          {/* <NavLink className="nav-link" exact to="/"> */}
+          <NavLink className="nav-link" exact to="/allProjects">
+            My Projects
           </NavLink>
         </li>
         <li className="nav-item">

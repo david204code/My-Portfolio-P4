@@ -1,5 +1,5 @@
 import React from "react";
-import "./about.css";
+import "./aboutPage.css";
 
 const About = () => (
   <div className="container-fluid">

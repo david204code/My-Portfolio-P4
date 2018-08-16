@@ -1,7 +1,7 @@
 import React from 'react';
-import "./welcome.css";
+import "./welcomePage.css";
 
-class Welcome extends React.Component {
+class WelcomePage extends React.Component {
     render() {
         return (
             <div>
@@ -11,4 +11,4 @@ class Welcome extends React.Component {
     }
 }
 
-export default Welcome;
+export default WelcomePage;
