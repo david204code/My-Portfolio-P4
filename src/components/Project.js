@@ -1,6 +1,6 @@
 import React from "react";
 
-class projectMain extends React.Component {
+class Project extends React.Component {
   render() {
     // const projects ={
 
@@ -15,4 +15,4 @@ class projectMain extends React.Component {
   }
 }
 
-export default projectMain;
+export default Project;

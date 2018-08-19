@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Redirect } from "react-router-dom";
 import Header from "./components/Header/header";
-import Welcome from "./pages/welcomePage";
+import Home from "./pages/welcomePage";
 import Main from "./pages/main";
 import About from "./pages/aboutPage";
 import Contact from "./pages/contactPage";
@@ -13,9 +13,10 @@ class App extends Component {
         <Router>
           <div>
             <Header />
-            <Route exact path="/" render={() => <Redirect to="/home" />} />
-            <Route path="/welcome" component={Welcome} />
-            <Route path="/allProjects" component={Main} />
+            <Route exact path="/" render={() => <Redirect to="/welcome" />} />
+            <Route path="/welcome" component={Home} />
+            {/* <Route path="/allProjects" component={Main} /> */}
+            <Route path="/myProjects" component={Main} />
             <Route path="/project/:id" component={Main} />
             <Route path="/about" component={About} />
             <Route path="/contact" component={Contact} />
