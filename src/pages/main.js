@@ -37,10 +37,10 @@ class Main extends Component {
     return (
       <div className="container-fluid">
         <div className="row">
-          <div className="col-md-8">
+          <div className="col-md-4">
             <AllProjects allProjects={allProjects} />
           </div>
-          <div className="col-md-4">
+          <div className="col-md-8">
             {allProjects.map( p => p.id == this.props.match.params.id ? <Project key={p.id} project={p} /> : "") }
           </div>
         </div>
