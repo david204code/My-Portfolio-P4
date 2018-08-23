@@ -4,10 +4,53 @@ import "./contact.css";
 const Contact = () => (
   <div>
     <div className="container">
+      <div className="jumbotron">
+      <div className="row"> 
+        <div className="col-md-12 first-part">
+          <h4 className="">Feel free to contact me!</h4>
+          <p>Contact detail below.</p>
+        </div>
+      </div>
+      
       <div className="row">
-        <div className="contact-form col-md-8 offset-md-2">
-          <h4 className="infor">Feel free to contact me!</h4>
-          <form id="contact-form" method="post">
+        <div className="col-md-4 offset-md-4 table-part">
+        <table>
+          <tr>
+            <th>Full Name:</th>
+            <td>David Wu</td>
+          </tr>
+          <tr>
+            <th>Location:</th>
+            <td>London, England</td>
+          </tr>
+          <tr>
+            <th>Email:</th>
+            <tr>david204code@gmail.com</tr>
+          </tr>
+          <tr>
+            <th>Age:</th>
+            <tr>23</tr>
+          </tr>
+        </table>
+        </div>
+      </div>
+
+      <div className="row">
+        <div className="col-md-4 offset-md-4">            
+          <div className="social-media">
+            <br>
+            </br>
+            <a href="https://www.linkedin.com" target="_blank"><i className="fab fa-linkedin"></i></a>
+            <a href="https://www.github.com" target="_blank"><i className="fab fa-github"></i></a>
+          </div>
+        </div>
+      </div>
+  
+      </div>
+      
+    </div>
+
+    {/* <form id="contact-form" method="post">
             <input
               name="name"
               type="text"
@@ -37,11 +80,7 @@ const Contact = () => (
               className="form-control submit"
               value="Submit"
             />
-          </form>
-        </div>
-      </div>
-    </div>
-
+          </form> */}
     {/* <form>
       <div className="row">
         <div class="col-md-4">

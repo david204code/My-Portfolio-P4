@@ -1,4 +1,16 @@
-.infor {
+.first-part {
   text-align: center;
-  color: green;
+}
+
+.table-part {
+  text-align: center;
+}
+
+i {
+  font-size: 50px;
+  color: black;
+}
+
+.social-media {
+  text-align: center;
 }
