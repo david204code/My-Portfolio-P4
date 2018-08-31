@@ -1,14 +1,14 @@
 import React from "react";
-import {Link} from 'react-router-dom';
+import { Link } from "react-router-dom";
 import "./card.css";
 
 const Card = props => (
   <div className="card mb-4">
-    {props.image ? (
-      <img className="card-img-top" src=".../100px180/" alt="Card image cap" />
+    {/* {props.images ? (
+      <img className="card-img-top" src={props.images[0]} alt="Card cap" />
     ) : (
       ""
-    )}
+    )} */}
     <div className="card-body">
       <h5 className="card-title">{props.title}</h5>
       <p className="card-text">{props.description}</p>

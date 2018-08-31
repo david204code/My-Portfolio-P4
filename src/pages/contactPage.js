@@ -3,7 +3,7 @@ import "./contactPage.css";
 import Contactform from "../components/Contact/contact";
 
 const Contact = () => (
-  <div>
+  <div className="bg-dark">
     <div className="container-fluid">
       <Contactform />
     </div>

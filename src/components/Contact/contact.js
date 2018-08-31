@@ -2,85 +2,91 @@ import React from "react";
 import "./contact.css";
 
 const Contact = () => (
-  <div>
+  <div className="py-5">
     <div className="container">
-      <div className="jumbotron">
-      <div className="row"> 
-        <div className="col-md-12 first-part">
-          <h4 className="">Feel free to contact me!</h4>
-          <p>Contact detail below.</p>
+      <div className="bg-white">
+        <div className="row">
+          <div className="col-md-4">
+            <img className="img-fluid p-5" src="/images/myAvatar1.jpg" alt="" />
+          </div>
+          <div className="col-md-8">
+            <div className="pt-5">
+              <h4 className="">Please get in touch!</h4>
+              <p>Contact details below.</p>
+            </div>
+            <hr />
+            <div>
+              <table>
+                <tr>
+                  <th>Full Name:</th>
+                  <td>David Wu</td>
+                </tr>
+                <tr>
+                  <th>Location:</th>
+                  <td>London, England</td>
+                </tr>
+                <tr>
+                  <th>Email:</th>
+                  <tr>david204code@gmail.com</tr>
+                </tr>
+                <tr>
+                  <th>Age:</th>
+                  <tr>23</tr>
+                </tr>
+              </table>
+            </div>
+          </div>
         </div>
-      </div>
-      
-      <div className="row">
-        <div className="col-md-4 offset-md-4 table-part">
-        <table>
-          <tr>
-            <th>Full Name:</th>
-            <td>David Wu</td>
-          </tr>
-          <tr>
-            <th>Location:</th>
-            <td>London, England</td>
-          </tr>
-          <tr>
-            <th>Email:</th>
-            <tr>david204code@gmail.com</tr>
-          </tr>
-          <tr>
-            <th>Age:</th>
-            <tr>23</tr>
-          </tr>
-        </table>
-        </div>
-      </div>
-
-      <div className="row">
-        <div className="col-md-4 offset-md-4">            
-          <div className="social-media">
-            <br>
-            </br>
-            <a href="https://www.linkedin.com" target="_blank"><i className="fab fa-linkedin"></i></a>
-            <a href="https://www.github.com" target="_blank"><i className="fab fa-github"></i></a>
+        <div className="row">
+          <div className="col-md-12">
+            <div className=" social-media bg-success">
+              <a
+                href="https://www.linkedin.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-linkedin" />
+              </a>
+              <a
+                href="https://www.github.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fab fa-github" />
+              </a>
+            </div>
           </div>
         </div>
       </div>
-  
-      </div>
-      
     </div>
 
     {/* <form id="contact-form" method="post">
-            <input
-              name="name"
-              type="text"
-              className="form-control"
-              placeholder="Name"
-              required
-            />
-            <br />
-            <input
-              name="email"
-              type="email"
-              className="form-control"
-              placeholder="Email"
-              required
-            />
-            <br />
-            <textarea
-              name="message"
-              className="form-control"
-              placeholder="Message"
-              rows="7"
-              required
-            />
-            <br />
-            <input
-              type="submit"
-              className="form-control submit"
-              value="Submit"
-            />
-          </form> */}
+      <input
+        name="name"
+        type="text"
+        className="form-control"
+        placeholder="Name"
+        required
+      />
+      <br />
+      <input
+        name="email"
+        type="email"
+        className="form-control"
+        placeholder="Email"
+        required
+      />
+      <br />
+      <textarea
+        name="message"
+        className="form-control"
+        placeholder="Message"
+        rows="7"
+        required
+      />
+      <br />
+      <input type="submit" className="form-control submit" value="Submit" />
+    </form> */}
     {/* <form>
       <div className="row">
         <div class="col-md-4">

@@ -8,32 +8,29 @@ const allProjects = [
     id: 1,
     title: "WordPress",
     description: "Install a WordPress theme for a Client Chalets and Caviar",
-    image: ""
+    images: [
+      "/images/myAvatar1.jpg",
+      "/images/myAvatar1.jpg",
+      "/images/myAvatar1.jpg"
+    ]
   },
   {
     id: 2,
     title: "Bootstrap",
     description: "Build a movie based website using the Bootstrap framework",
-    image: ""
+    images: []
   },
   {
     id: 3,
-    title: "JavaScript",
-    description: "Creating a board game to understand the concept of JavaScript",
-    image: ""
-  },
-  {
-    id: 4,
     title: "React",
-    description: "Build my own profolio using React",
-    image: ""
+    description: "Build my own profolio website using React",
+    images: []
   }
 ];
 
-
 class Main extends Component {
   render() {
-    console.log('Post ID:', this.props)
+    console.log("Post ID:", this.props);
     return (
       <div className="container-fluid">
         <div className="row">
@@ -41,7 +38,14 @@ class Main extends Component {
             <AllProjects allProjects={allProjects} />
           </div>
           <div className="col-md-8">
-            {allProjects.map( p => p.id == this.props.match.params.id ? <Project key={p.id} project={p} /> : "") }
+            {allProjects.map(
+              p =>
+                p.id === Math.floor(this.props.match.params.id) ? (
+                  <Project key={p.id} project={p} />
+                ) : (
+                  ""
+                )
+            )}
           </div>
         </div>
       </div>
