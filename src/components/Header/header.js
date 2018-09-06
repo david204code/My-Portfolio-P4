@@ -20,14 +20,14 @@ const Header = () => (
       id="navbarsExample10"
     >
       <ul className="navbar-nav">
-        <li >
+        <li>
           <NavLink className="nav-link" to="/welcome">
             Welcome
           </NavLink>
         </li>
         <li className="nav-item">
           {/* <NavLink className="nav-link" exact to="/"> */}
-          <NavLink className="nav-link" exact to="/myProjects">
+          <NavLink className="nav-link" exact to="/project/1">
             My Projects
           </NavLink>
         </li>

@@ -9,22 +9,30 @@ const allProjects = [
     title: "WordPress",
     description: "Install a WordPress theme for a Client Chalets and Caviar",
     images: [
-      "/images/myAvatar1.jpg",
-      "/images/myAvatar1.jpg",
-      "/images/myAvatar1.jpg"
-    ]
+      "/images/wordPress1.png",
+      "/images/wordPress2.jpg",
+      "/images/wordPress3.png"
+    ],
+    details: `
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, alias!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime maiores obcaecati dolorum, quo nemo est odio itaque! Nihil, velit obcaecati!
+    `
   },
   {
     id: 2,
     title: "Bootstrap",
     description: "Build a movie based website using the Bootstrap framework",
-    images: []
+    images: [
+      "/images/bootStrap1.png",
+      "/images/bootStrap2.png",
+      "/images/bootStrap3.png"
+    ]
   },
   {
     id: 3,
     title: "React",
     description: "Build my own profolio website using React",
-    images: []
+    images: ["/images/react.png"]
   }
 ];
 

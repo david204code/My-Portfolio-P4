@@ -39,7 +39,7 @@ const Contact = () => (
         </div>
         <div className="row">
           <div className="col-md-12">
-            <div className=" social-media bg-success">
+            <div className=" social-media">
               <a
                 href="https://www.linkedin.com"
                 target="_blank"

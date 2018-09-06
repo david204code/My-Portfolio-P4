@@ -1,12 +1,16 @@
 .heading1 {
   text-align: center;
-  
 }
 
-.introduction, .intro-part2 {
+.introduction,
+.intro-part2 {
   text-align: center;
 }
 
 .style {
   list-style-type: none;
+}
+
+.page-center {
+  text-align: center;
 }

@@ -5,6 +5,7 @@ import Home from "./pages/welcomePage";
 import Main from "./pages/main";
 import About from "./pages/aboutPage";
 import Contact from "./pages/contactPage";
+import Footer from "./components/Footer/footer.js";
 
 class App extends Component {
   render() {
@@ -16,10 +17,11 @@ class App extends Component {
             <Route exact path="/" render={() => <Redirect to="/welcome" />} />
             <Route path="/welcome" component={Home} />
             {/* <Route path="/allProjects" component={Main} /> */}
-            <Route path="/myProjects" component={Main} />
+            {/* <Route path="/projects" component={Main} /> */}
             <Route path="/project/:id" component={Main} />
             <Route path="/about" component={About} />
             <Route path="/contact" component={Contact} />
+            <Footer />
           </div>
         </Router>
       </div>
