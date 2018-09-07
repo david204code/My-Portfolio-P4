@@ -26,13 +26,21 @@ const allProjects = [
       "/images/bootStrap1.png",
       "/images/bootStrap2.png",
       "/images/bootStrap3.png"
-    ]
+    ],
+    details: `
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, alias!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime maiores obcaecati dolorum, quo nemo est odio itaque! Nihil, velit obcaecati!
+    `
   },
   {
     id: 3,
     title: "React",
     description: "Build my own profolio website using React",
-    images: ["/images/react.png"]
+    images: ["/images/react.png"],
+    details: `
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, alias!
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime maiores obcaecati dolorum, quo nemo est odio itaque! Nihil, velit obcaecati!
+    `
   }
 ];
 
