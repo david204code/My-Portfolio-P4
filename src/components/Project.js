@@ -20,6 +20,10 @@ class Project extends React.Component {
             ) : (
               ""
             )} */}
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-md-12 the-writings p-4">
             <p className="text-muted border bg-light p-5">{details}</p>
           </div>
         </div>

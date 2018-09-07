@@ -14,8 +14,12 @@ const allProjects = [
       "/images/wordPress3.png"
     ],
     details: `
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, alias!
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime maiores obcaecati dolorum, quo nemo est odio itaque! Nihil, velit obcaecati!
+    In this project I used WordPress as a plaform to design a website that meets the needs
+    of the client. Aside from designing the website, the client also requested I provide a
+    simple manuel for their employees on how to constantly update their website in order 
+    to ensure the information are up to date and relevant.
+    In designing this website I choose the appropriate plugins that are well suitable in what
+    the client requested.
     `
   },
   {
@@ -28,18 +32,25 @@ const allProjects = [
       "/images/bootStrap3.png"
     ],
     details: `
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, alias!
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime maiores obcaecati dolorum, quo nemo est odio itaque! Nihil, velit obcaecati!
+    With my HTML and CSS knowledge I used the bootstrap framework to create a fully functional live website
+    from scratch. I worked closely with client to ensure I get every single detail right. Details such as layout,
+    user navigation and general outlook was very important for success of the website.    
     `
   },
   {
     id: 3,
     title: "React",
     description: "Build my own profolio website using React",
-    images: ["/images/react.png"],
+    images: [
+      "/images/react.png",
+      "/images/react1.png",
+      "/images/react2.png"
+  ],
     details: `
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, alias!
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime maiores obcaecati dolorum, quo nemo est odio itaque! Nihil, velit obcaecati!
+    Build reusable components using JSX and JavaScript. This very website is THE project, please take a good
+    look around. All this is a single-page app, meaning it still function like a normal website but loads 
+    way quicker! React is one of the best upcoming web development technology, it was great using it and more
+    importantly learning about it. 
     `
   }
 ];
