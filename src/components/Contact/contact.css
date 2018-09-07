@@ -6,11 +6,15 @@
   text-align: center;
 }
 
-i {
-  font-size: 50px;
-  color: black;
-}
-
 .social-media {
   text-align: center;
+  background-color: #1c0b19;
+  padding: 10px 0;
+}
+.social-media a {
+  margin: 0 5px;
+}
+.social-media a i {
+  color: #fff;
+  font-size: 24px;
 }

@@ -2,10 +2,10 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 const Footer = () => (
-  <div>
+  <div className="bg-light pt-4">
     <div className="container">
       <div className="row">
-        <div className="col-md 12 py-2">
+        <div className="col-md-12">
           <div className="">
             <nav className="navbar navbar-expand-lg rounded">
               <button
@@ -32,7 +32,7 @@ const Footer = () => (
                   </li>
                   <li className="nav-item">
                     {/* <NavLink className="nav-link" exact to="/"> */}
-                    <NavLink className="nav-link" exact to="/myProjects">
+                    <NavLink className="nav-link" exact to="/project/1">
                       My Projects
                     </NavLink>
                   </li>
@@ -52,7 +52,7 @@ const Footer = () => (
           </div>
         </div>
       </div>
-      <div className="footer-copyright text-center py-2">
+      <div className="footer-copyright text-muted text-center py-2">
         © 2018 Copyright: David Wu
       </div>
     </div>

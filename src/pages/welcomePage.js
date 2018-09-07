@@ -5,8 +5,8 @@ import { Link } from "react-router-dom";
 class WelcomePage extends React.Component {
   render() {
     return (
-      <div>
-        <div className="container intro">
+      <div className="my-5">
+        <div className="container intro text-muted">
           <br />
           <div className="row">
             <div className="col-md-5 mx-auto">

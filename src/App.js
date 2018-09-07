@@ -7,6 +7,8 @@ import About from "./pages/aboutPage";
 import Contact from "./pages/contactPage";
 import Footer from "./components/Footer/footer.js";
 
+import "./App.css"
+
 class App extends Component {
   render() {
     return (

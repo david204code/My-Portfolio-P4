@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 const Header = () => (
-  <nav className="navbar navbar-expand-lg navbar-light bg-light rounded">
+  <nav className="navbar navbar-expand-lg navbar-light bg-light">
     <button
       className="navbar-toggler"
       type="button"

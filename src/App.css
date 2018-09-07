@@ -1,0 +1,14 @@
+body {
+  /* color: #1c0b19; */
+  background-color: #1c0b19;
+}
+
+a {
+  color: #1c0b19;
+}
+
+.card-shadow {
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  overflow: hidden;
+}

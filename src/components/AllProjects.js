@@ -3,7 +3,7 @@ import Card from "./Card/card";
 import "./AllProjects.css";
 
 const allProjects = ({ allProjects }) => (
-  <div className="container-fluid row">
+  <div className="row">
     {allProjects.map(p => (
       <div key={p.id} className="col-md-12">
         <Card

@@ -41,11 +41,7 @@ const allProjects = [
     id: 3,
     title: "React",
     description: "Build my own profolio website using React",
-    images: [
-      "/images/react.png",
-      "/images/react1.png",
-      "/images/react2.png"
-  ],
+    images: ["/images/react.png", "/images/react1.png", "/images/react2.png"],
     details: `
     Build reusable components using JSX and JavaScript. This very website is THE project, please take a good
     look around. All this is a single-page app, meaning it still function like a normal website but loads 
@@ -59,7 +55,7 @@ class Main extends Component {
   render() {
     console.log("Post ID:", this.props);
     return (
-      <div className="container-fluid">
+      <div className="container bg-light my-5 py-5">
         <div className="row">
           <div className="col-md-4">
             <AllProjects allProjects={allProjects} />
