@@ -15,22 +15,24 @@ const Contact = () => (
         <hr />
         <div>
           <table>
-            <tr>
-              <th>Full Name:</th>
-              <td>David Wu</td>
-            </tr>
-            <tr>
-              <th>Location:</th>
-              <td>London, England</td>
-            </tr>
-            <tr>
-              <th>Email:</th>
-              <tr>david204code@gmail.com</tr>
-            </tr>
-            <tr>
-              <th>Age:</th>
-              <tr>23</tr>
-            </tr>
+            <tbody>
+              <tr>
+                <th>Full Name:</th>
+                <td>David Wu</td>
+              </tr>
+              <tr>
+                <th>Location:</th>
+                <td>London, England</td>
+              </tr>
+              <tr>
+                <th>Email:</th>
+                <td>david204code@gmail.com</td>
+              </tr>
+              <tr>
+                <th>Age:</th>
+                <td>23</td>
+              </tr>
+            </tbody>
           </table>
         </div>
       </div>
@@ -39,14 +41,14 @@ const Contact = () => (
       <div className="col-md-12">
         <div className=" social-media">
           <a
-            href="https://www.linkedin.com"
+            href="https://www.linkedin.com/in/david-wu-012080155"
             target="_blank"
             rel="noopener noreferrer"
           >
             <i className="fab fa-linkedin" />
           </a>
           <a
-            href="https://www.github.com"
+            href="https://github.com/david204code"
             target="_blank"
             rel="noopener noreferrer"
           >

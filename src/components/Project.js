@@ -8,7 +8,7 @@ class Project extends React.Component {
     // };
     //My logo for the project
 
-    const { title, images, details } = this.props.project;
+    const { images, details } = this.props.project;
 
     return (
       <div>
